@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RKrEmyNtPazKHThItZbugmF0bXytl+khRe2gnZmPD/xhWKdup07CdGTUSJ/RZ857F69ccWO4JQLCFSERzqZYCw==",
+  "dgSpecHash": "L1fuhgkZA919CwCSBpRp9QWOfSPFeAolL2Jv+COAceczfJP9uORAc1ic+QXwYphPVAgRNm5cGsRq7yt8VWbqOw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sudis\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\sudis\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\sudis\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

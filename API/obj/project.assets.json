@@ -11,6 +11,28 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -589,6 +611,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Domain": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Persistence": "1.0.0"
         },
         "compile": {
@@ -639,6 +662,37 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "sha512": "msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.JwtBearer/5.0.0": {
@@ -1617,6 +1671,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Application >= 1.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.3",
@@ -1630,11 +1685,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
+      "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
       "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\obj\\",
+      "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1654,8 +1709,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj": {
-              "projectPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj"
+            "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj"
             }
           }
         }
@@ -1670,6 +1725,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[5.0.0, )",
