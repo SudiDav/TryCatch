@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5R6X7G5BHxcdjYEKsjoWa6wqGH/+Oy/CxTcnSA4FGZ4vKFGntjemnzM85FnovnhCFd1ZMUW+u7LJMM1R1zR6YQ==",
+  "dgSpecHash": "cUoSyYQ/e/q4+LYVzxbQ2dC1btmht7BdGSmDwvhnEuB5de4Ni1ZhFqd1qFDrwMFHerGL+uaXMW/zwOpftddD/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
+  "projectFilePath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sudis\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.3\\microsoft.data.sqlite.core.5.0.3.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
