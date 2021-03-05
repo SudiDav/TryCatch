@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EYjSWJYD9m0RahHbxIUQyOXxqRJaXUWKlVD7tDU89kgAYC2AmgeNLo79Vxxb7N7kvIVUM6ZkTnwLPaoBkKr2eA==",
+  "dgSpecHash": "zsS/HkUWtzi4fydbQ0ybzw46ztuF63S2zHqUv341FqlXQG/zsEZzseweunW3L5h4Jt62ETiOlU2lqGRDp8yurw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
+  "projectFilePath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sudis\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

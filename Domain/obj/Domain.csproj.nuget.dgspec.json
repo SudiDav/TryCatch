@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {}
+    "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {
+    "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
