@@ -1230,11 +1230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
+      "projectUniqueName": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
+      "projectPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\obj\\",
+      "outputPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1254,11 +1254,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj"
+            "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {
+              "projectPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj": {
-              "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj"
+            "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj": {
+              "projectPath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj"
             }
           }
         }
