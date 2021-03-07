@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "taGEVK0QZqZEEZOnk0yc4iztVwUqDd3y/cAr+MDshv2f7IMiBcl2DoQj55YC5wiiVQS1dp+IML3ra+ChIErUFA==",
+  "dgSpecHash": "n6rQu1GdjIOFoemdzfJSXBVHuSFX9W+IB6lb5pWy2I5zEr5+9eVbJPF8fI9K2u9h3m5ZvpOKHSG3B+6/zqk7FA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sudis\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\sudis\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
