@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {}
+    "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {
+    "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\obj\\",
+        "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
+        "outputPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sudis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Simba\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\sudis\\Documents\\Sudi\\Nugets\\BlazorHRM": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -57,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

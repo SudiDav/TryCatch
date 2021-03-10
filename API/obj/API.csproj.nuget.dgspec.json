@@ -1,38 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj": {}
+    "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj": {
+    "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
+        "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\API\\obj\\",
+        "projectPath": "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
+        "outputPath": "D:\\Sudi\\Projects\\TryCatch\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sudis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Simba\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\sudis\\Documents\\Sudi\\Nugets\\BlazorHRM": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj"
+              "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj": {
+                "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj"
               }
             }
           }
@@ -98,42 +93,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj": {
+    "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Application\\obj\\",
+        "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
+        "outputPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sudis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Simba\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\sudis\\Documents\\Sudi\\Nugets\\BlazorHRM": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj"
+              "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj"
+              "D:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -172,31 +162,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {
+    "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\obj\\",
+        "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
+        "outputPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sudis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Simba\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\sudis\\Documents\\Sudi\\Nugets\\BlazorHRM": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -229,39 +214,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj": {
+    "D:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\sudis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Persistence\\obj\\",
+        "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
+        "outputPath": "D:\\Sudi\\Projects\\TryCatch\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\sudis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Simba\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\sudis\\Documents\\Sudi\\Nugets\\BlazorHRM": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\sudis\\Documents\\Sudi\\Project\\TryCatch\\Domain\\Domain.csproj"
+              "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj"
               }
             }
           }
@@ -296,7 +276,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
