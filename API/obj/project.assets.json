@@ -1800,11 +1800,17 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Simba\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Simba\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+>>>>>>> develop
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
       "projectName": "API",
       "projectPath": "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
@@ -1813,19 +1819,43 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Simba\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+      "projectUniqueName": "d:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
+      "projectName": "API",
+      "projectPath": "d:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
+      "outputPath": "d:\\Sudi\\Projects\\TryCatch\\API\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Simba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> develop
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+<<<<<<< HEAD
+=======
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> develop
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj": {
               "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj"
+=======
+            "d:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj": {
+              "projectPath": "d:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj"
+>>>>>>> develop
             }
           }
         }

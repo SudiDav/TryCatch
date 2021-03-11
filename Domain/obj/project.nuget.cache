@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "1x1kPCQBw7oQI1xPjosJ43IrMaGGPHBi9e7IkcOf+pizeOZBCWpmCow35VxQ5QkS2U2OPv5C7Wnms9+6Vcq5TA==",
   "success": true,
   "projectFilePath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
+=======
+  "dgSpecHash": "6XfELxrttZFvjFVLgsh7pAN8p7fpEdLaXA8cMG8kjS8H30f8cWVj02dxyq1oSoi5OWRfGjBnmpA/ehCAp/kNBQ==",
+  "success": true,
+  "projectFilePath": "d:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
+>>>>>>> develop
   "expectedPackageFiles": [],
   "logs": []
 }

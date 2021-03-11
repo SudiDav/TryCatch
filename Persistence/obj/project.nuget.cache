@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "uDutnAIq1Tall94avhI1t61CsQXNdG8bmngoNtBetcRqRScQ6vH/vsVUCehDq7YwthyzcTPRIEiNLSEf83trAw==",
   "success": true,
   "projectFilePath": "D:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj",
+=======
+  "dgSpecHash": "UbJTmBXf6Vi2OGHDqJfOGDQJ90857sa3jyG8WiHckoCpwS3M3BdMBKWMuHTl0H/c91Na7iLZ5fxu2E+F68GZVA==",
+  "success": true,
+  "projectFilePath": "d:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj",
+>>>>>>> develop
   "expectedPackageFiles": [
     "C:\\Users\\Simba\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.3\\microsoft.data.sqlite.core.5.0.3.nupkg.sha512",
     "C:\\Users\\Simba\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
