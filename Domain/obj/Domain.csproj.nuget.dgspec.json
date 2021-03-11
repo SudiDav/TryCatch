@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {}
+    "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "d:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {
+    "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "d:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
-        "outputPath": "d:\\Sudi\\Projects\\TryCatch\\Domain\\obj\\",
+        "outputPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

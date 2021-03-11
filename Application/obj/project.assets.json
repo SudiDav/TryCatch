@@ -1230,11 +1230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "d:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
+      "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
-      "outputPath": "d:\\Sudi\\Projects\\TryCatch\\Application\\obj\\",
+      "outputPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1255,11 +1255,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "d:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {
-              "projectPath": "d:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj"
+            "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Domain\\Domain.csproj"
             },
-            "d:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj": {
-              "projectPath": "d:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj"
+            "D:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Persistence\\Persistence.csproj"
             }
           }
         }
