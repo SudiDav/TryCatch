@@ -1811,6 +1811,7 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
       "projectName": "API",
       "projectPath": "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
@@ -1821,10 +1822,13 @@
         "C:\\Users\\Simba\\AppData\\Roaming\\NuGet\\NuGet.Config"
 =======
       "projectUniqueName": "d:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
+=======
+      "projectUniqueName": "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
+>>>>>>> develop
       "projectName": "API",
-      "projectPath": "d:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
+      "projectPath": "D:\\Sudi\\Projects\\TryCatch\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Simba\\.nuget\\packages\\",
-      "outputPath": "d:\\Sudi\\Projects\\TryCatch\\API\\obj\\",
+      "outputPath": "D:\\Sudi\\Projects\\TryCatch\\API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -1850,11 +1854,16 @@
           "targetAlias": "net5.0",
           "projectReferences": {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj": {
               "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj"
 =======
             "d:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj": {
               "projectPath": "d:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj"
+>>>>>>> develop
+=======
+            "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj": {
+              "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj"
 >>>>>>> develop
             }
           }

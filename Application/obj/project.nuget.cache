@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "xWsAgzdsT0ifgPSf4MwQ7BwyPbf1Ol9JoV++cKh1Ds9gVEPLhkg3E95IfrCcka25/ap3sAeF02zMP0MLxXyt0Q==",
   "success": true,
   "projectFilePath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
@@ -8,6 +9,11 @@
   "dgSpecHash": "9ObAVPEUDOUW1FSZ6QGnbGgpEKlIwjsimJU520XpMxVFLkeX9AMgRxy/SkfO6ZbJhwV1ll+4kK16WGunfxhAlw==",
   "success": true,
   "projectFilePath": "d:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
+>>>>>>> develop
+=======
+  "dgSpecHash": "DvM0VYnQASnSIpXgdstbpIWrP/rqFgnKyENJSUJXiUMVhFkGmOmJIRtgt/tDsRR0GF3HTKcfD0ba2+PJLCUU5Q==",
+  "success": true,
+  "projectFilePath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
 >>>>>>> develop
   "expectedPackageFiles": [
     "C:\\Users\\Simba\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
