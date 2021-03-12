@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "DvM0VYnQASnSIpXgdstbpIWrP/rqFgnKyENJSUJXiUMVhFkGmOmJIRtgt/tDsRR0GF3HTKcfD0ba2+PJLCUU5Q==",
+  "dgSpecHash": "vNMgw0qF7ZF2bkUz1Z4EIpxG33gr+cfKYwBI+mRhve284YMiCJAwjjU5atHJvEIeL9InPjLqrevf4xUN4MYd2w==",
   "success": true,
   "projectFilePath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simba\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Simba\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\Simba\\.nuget\\packages\\fluentvalidation\\9.5.2\\fluentvalidation.9.5.2.nupkg.sha512",
+    "C:\\Users\\Simba\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.5.2\\fluentvalidation.aspnetcore.9.5.2.nupkg.sha512",
+    "C:\\Users\\Simba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\9.5.2\\fluentvalidation.dependencyinjectionextensions.9.5.2.nupkg.sha512",
     "C:\\Users\\Simba\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Simba\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\Simba\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
