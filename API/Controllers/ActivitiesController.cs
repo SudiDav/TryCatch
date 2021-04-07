@@ -1,13 +1,10 @@
-using System.Runtime.Intrinsics.X86;
 using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using Application.Activities;
 using Domain;
-using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace API.Controllers 
+namespace API.Controllers
 {
     public class ActivitiesController : BaseApiController 
     {

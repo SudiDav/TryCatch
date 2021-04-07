@@ -1,14 +1,14 @@
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
-using AutoMapper;
 using Domain;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 using Application.Core;
 
-namespace Application.Activities {
+namespace Application.Activities
+{
     public class List {
         public class Query : IRequest<Result<List<Activity>>> { }
 
