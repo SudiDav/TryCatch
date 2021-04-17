@@ -3,8 +3,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
 using System.Text.Json;
 using System.Threading.Tasks;
@@ -16,13 +14,12 @@ namespace API.Middleware
         private readonly RequestDelegate _next;
         private readonly ILogger<ExceptionMiddleware> _logger;
         private readonly IHostEnvironment _env;
-
         public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger,
-                                IHostEnvironment env)
+            IHostEnvironment env)
         {
-            _next = next;
-            _logger = logger;
             _env = env;
+            _logger = logger;
+            _next = next;
         }
 
         public async Task InvokeAsync(HttpContext context)
@@ -39,7 +36,7 @@ namespace API.Middleware
 
                 var response = _env.IsDevelopment()
                     ? new AppException(context.Response.StatusCode, ex.Message, ex.StackTrace?.ToString())
-                    : new AppException(context.Response.StatusCode, "Serer Error");
+                    : new AppException(context.Response.StatusCode, "Server Error");
 
                 var options = new JsonSerializerOptions { PropertyNamingPolicy = JsonNamingPolicy.CamelCase };
 
