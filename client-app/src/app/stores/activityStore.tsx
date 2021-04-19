@@ -7,7 +7,7 @@ export default class ActivityStore {
   selectedActivity: Activity | undefined = undefined
   editMode = false
   loading = false
-  loadingInitial = true
+  loadingInitial = false
 
   constructor() {
     makeAutoObservable(this)
@@ -19,13 +19,15 @@ export default class ActivityStore {
     )
   }
 
-  get groupedActivities(){
+  get groupedActivities() {
     return Object.entries(
-      this.activitiesByDate.reduce((activities, activity) =>{
-        const date = activity.date;
-        activities[date] = activities[date] ? [...activities[date], activity] : [activity];
-        return activities;
-      },{} as {[key: string]: Activity[]})
+      this.activitiesByDate.reduce((activities, activity) => {
+        const date = activity.date
+        activities[date] = activities[date]
+          ? [...activities[date], activity]
+          : [activity]
+        return activities
+      }, {} as { [key: string]: Activity[] })
     )
   }
 
@@ -51,7 +53,7 @@ export default class ActivityStore {
       return activity
     } else {
       this.loadingInitial = true
-      try   {
+      try {
         activity = await agent.Activities.details(id)
         this.setActivity(activity)
         runInAction(() => {
