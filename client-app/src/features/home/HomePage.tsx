@@ -3,9 +3,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { Container, Header, Segment, Image, Button } from 'semantic-ui-react'
 import { useStore } from '../../app/stores/store'
+import LoginForm from '../users/LoginForm'
 
 export default observer(function HomePage() {
-  const { userStore } = useStore()
+  const { userStore, modelStore } = useStore()
 
   return (
     <Segment inverted textAlign='center' vertical className='masthead'>
@@ -17,19 +18,30 @@ export default observer(function HomePage() {
             alt='logo'
             style={{ marginBottom: 12 }}
           />
-          Dotnet Club RDC
+          Goma Connect
         </Header>
         {userStore.isLoggedIn ? (
           <>
-            <Header as='h2' inverted content='Welcome to Dotnet Club DRC' />
-            <Button as={Link} to='/login' size='huge' inverted>
+            <Header as='h2' inverted content='Welcome to Goma Connect' />
+            <Button as={Link} to='/activities' size='huge' inverted>
               Go to Activities
             </Button>
           </>
         ) : (
-          <Button as={Link} to='/login' size='huge' inverted>
-            Login
-          </Button>
+          <>
+            <Button
+              onClick={() => modelStore.openModal(<LoginForm />)}
+              size='huge'
+              inverted>
+              Login!
+            </Button>
+            <Button
+              onClick={() => modelStore.openModal(<h1>Register!</h1>)}
+              size='huge'
+              inverted>
+              Register!
+            </Button>
+          </>
         )}
       </Container>
     </Segment>

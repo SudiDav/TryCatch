@@ -1,5 +1,4 @@
 import { observer } from 'mobx-react-lite'
-import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { Button, Container, Dropdown, Image, Menu } from 'semantic-ui-react'
 import { useStore } from '../stores/store'
@@ -13,7 +12,7 @@ export default observer(function NavBar() {
       <Container>
         <Menu.Item exact as={NavLink} to='/' header>
           <img src='/assets/logo.png' alt='logo' style={{ marginRight: 10 }} />
-          Dotnet Club DRC
+          Goma Connect
         </Menu.Item>
         <Menu.Item as={NavLink} to='/activities' name='Activities' />
         <Menu.Item as={NavLink} to='/errors' name='Errors' />
