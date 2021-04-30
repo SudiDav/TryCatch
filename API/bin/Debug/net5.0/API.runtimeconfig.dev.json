@@ -6,7 +6,12 @@
       "C:\\Users\\Simba\\.nuget\\packages"
 =======
       "C:\\Users\\Simba\\.nuget\\packages",
+<<<<<<< HEAD
       "C:\\Microsoft\\Xamarin\\NuGet"
+>>>>>>> develop
+=======
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+      "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
 >>>>>>> develop
     ]
   }
