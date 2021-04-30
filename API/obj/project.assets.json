@@ -772,6 +772,19 @@
           "bin/placeholder/Domain.dll": {}
         }
       },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
+      },
       "Persistence/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2030,6 +2043,11 @@
       "path": "../Domain/Domain.csproj",
       "msbuildProject": "../Domain/Domain.csproj"
     },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
+    },
     "Persistence/1.0.0": {
       "type": "project",
       "path": "../Persistence/Persistence.csproj",
@@ -2040,6 +2058,7 @@
     "net5.0": [
       "Application >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.0",
+      "Infrastructure >= 1.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 9.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.5",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.0",
@@ -2084,6 +2103,9 @@
           "projectReferences": {
             "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj": {
               "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Application\\Application.csproj"
+            },
+            "D:\\Sudi\\Projects\\TryCatch\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Sudi\\Projects\\TryCatch\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
