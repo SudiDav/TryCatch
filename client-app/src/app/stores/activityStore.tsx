@@ -157,7 +157,7 @@ export default class ActivityStore {
       runInAction(() => {
         if (this.selectedActivity?.isGoing) {
           this.selectedActivity.attendees = this.selectedActivity.attendees?.filter(
-            (a) => a.username != user?.username
+            (a) => a.username !== user?.username
           )
           this.selectedActivity.isGoing = false
         } else {
