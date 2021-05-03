@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button, Icon, Item, Label, Segment } from 'semantic-ui-react'
 import { Activity } from '../../../app/models/activity'
@@ -24,7 +23,7 @@ export default function ActivityListItem({ activity }: Props) {
         <Item.Group>
           <Item>
             <Item.Image
-              style={{ marginBotton: 3 }}
+              style={{ marginBotton: 5 }}
               size='tiny'
               circular
               src='/assets/user.png'
