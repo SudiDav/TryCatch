@@ -13,12 +13,12 @@ namespace Application.Photos
 {
     public class Add
     {
-        public class Cammand : IRequest<Result<Photo>>
+        public class Command : IRequest<Result<Photo>>
         {
             public IFormFile File { get; set; }
         }
 
-        public class Handler : IRequestHandler<Cammand, Result<Photo>>
+        public class Handler : IRequestHandler<Command, Result<Photo>>
         {
             private readonly DataContext _context;
             private readonly IPhotoAccessor _photoAccessor;
@@ -31,7 +31,7 @@ namespace Application.Photos
                 _userAccessor = userAccessor;
             }
 
-            public async Task<Result<Photo>> Handle(Cammand request, CancellationToken cancellationToken)
+            public async Task<Result<Photo>> Handle(Command request, CancellationToken cancellationToken)
             {
                 var user = await _context.Users.Include(p => p.Photos)
                     .FirstOrDefaultAsync(x => x.UserName == _userAccessor.GetUsername());
