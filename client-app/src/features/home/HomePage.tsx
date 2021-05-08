@@ -19,11 +19,12 @@ export default observer(function HomePage() {
             alt='logo'
             style={{ marginBottom: 12 }}
           />
-          Goma Connect
+          GTC
         </Header>
         {userStore.isLoggedIn ? (
           <>
-            <Header as='h2' inverted content='Welcome to Goma Connect' />
+            <Header as='h2' inverted content='Welcome to Goma Tech Connect' />
+            <Header as='h3' inverted content={`Let's skyrock together`} />
             <Button as={Link} to='/activities' size='huge' inverted>
               Go to Activities
             </Button>

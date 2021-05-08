@@ -12,7 +12,7 @@ export default observer(function NavBar() {
       <Container>
         <Menu.Item exact as={NavLink} to='/' header>
           <img src='/assets/logo.png' alt='logo' style={{ marginRight: 10 }} />
-          Goma Connect
+          GTC
         </Menu.Item>
         <Menu.Item as={NavLink} to='/activities' name='Activities' />
         <Menu.Item as={NavLink} to='/errors' name='Errors' />
@@ -36,7 +36,7 @@ export default observer(function NavBar() {
             <Dropdown.Menu>
               <Dropdown.Item
                 as={Link}
-                to={`/profile/${user?.username}`}
+                to={`/profiles/${user?.username}`}
                 text='My profile'
                 icon='user'
               />
