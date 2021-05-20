@@ -22,4 +22,4 @@ This repo contains the Dotnet Club DRC app
 >>>>>>> develop
   
 3. App Description
-  This is an Event app that helps the local community to organise events for the Tech geeks community and specifically for the dotnet geeks.
+  This is an Event app that helps the local community to organise events for the Tech geeks community.
