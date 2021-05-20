@@ -34,7 +34,6 @@ namespace API
                 logger.LogError(ex, "An error occured during migration");
             }
 
-
             await host.RunAsync();
         }
 

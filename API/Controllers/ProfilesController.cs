@@ -14,12 +14,9 @@ namespace API.Controllers
         }
 
         [HttpPut]
-
-
-
         public async Task<IActionResult> Edit(Edit.Command command)
         {
             return HandleResult(await Mediator.Send(command));
-
-
         }
+    }
+}
