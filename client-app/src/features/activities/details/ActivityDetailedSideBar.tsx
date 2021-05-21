@@ -19,7 +19,7 @@ export default observer(function ActivityDetailedSidebar({
         attached='top'
         secondary
         inverted
-        color='teal'>
+        color='blue'>
         {attendees.length} {attendees.length === 1 ? 'Person' : 'People'} going
       </Segment>
       <Segment attached>
