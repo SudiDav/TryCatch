@@ -10,7 +10,6 @@ This repo contains the Dotnet Club DRC app
   - Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 2. Running the App
-<<<<<<< HEAD
 
   - Go to API route and run `dotnet build`, `dotnet restore` then `dotnet watch run`
   - Go to the client-app route and run `npm install` then `npm start`  - 
@@ -19,7 +18,6 @@ This repo contains the Dotnet Club DRC app
   - Go to API route and run `dotnet build` then `dotnet watch run`
   - Go to the client-app route and run `npm install` then `npm start`  - 
   - You do not have to run the migration because that has been taken care of from the API level in the `Program.cs`
->>>>>>> develop
-  
+
 3. App Description
   This is an Event app that helps the local community to organise events for the Tech geeks community.
