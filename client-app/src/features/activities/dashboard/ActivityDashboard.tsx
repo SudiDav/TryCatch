@@ -10,18 +10,18 @@ import ActivityList from './ActivityList'
 
 export default observer(function ActivityDashboard() {
   const { activityStore } = useStore()
-  const { activityRegistry, loadingActivities, setPagingParams, pagination } = activityStore
+  const { activityRegistry, loadActivities, setPagingParams, pagination } = activityStore
   const [loadingNext, setLoadingNext] = useState(false)
 
   function handleGetNext(){
     setLoadingNext(true)
     setPagingParams(new PagingParams(pagination!.currentPage + 1))
-    loadingActivities().then(() => setLoadingNext(false))
+    loadActivities().then(() => setLoadingNext(false))
   }
 
   useEffect(() => {
-    if (activityRegistry.size <= 1) loadingActivities()
-  }, [activityRegistry.size, loadingActivities])
+    if (activityRegistry.size <= 1) loadActivities()
+  }, [activityRegistry.size, loadActivities])
 
   if (activityStore.loadingInitial && !loadingNext)
     return <LoadingComponent content='Loading activitivies...' />
