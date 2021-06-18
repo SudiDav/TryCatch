@@ -1,4 +1,4 @@
-import { Photo, Profile } from './../models/profile';
+import { Photo, Profile, UserActivity } from './../models/profile';
 import axios, { AxiosError, AxiosResponse } from 'axios'
 import { toast } from 'react-toastify'
 import { history } from '../..'
@@ -111,7 +111,9 @@ const Profiles = {
   updateProfile: (profile: Partial<Profile>) => requests.put(`/profiles`,profile),
   updateFollowing: (username: string) => requests.post(`/follow/${username}`, {}),
   listFollowings: (username:string, predicate: string) => 
-    requests.get<Profile[]>(`/follow/${username}?predicate=${predicate}`)
+    requests.get<Profile[]>(`/follow/${username}?predicate=${predicate}`),
+  listActivities: (username: string, predicate: string) =>
+    requests.get<UserActivity[]>(`/profiles/${username}/activities?predicate=${predicate}`)
 }
 
 const agent = {
