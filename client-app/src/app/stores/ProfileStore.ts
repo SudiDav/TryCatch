@@ -1,6 +1,6 @@
 import { makeAutoObservable, reaction, runInAction } from 'mobx';
 import agent from '../api/agent';
-import { Photo, Profile } from './../models/profile';
+import { Photo, Profile, UserActivity } from './../models/profile';
 import { store } from './store';
 
 export default class ProfileStore{
@@ -10,7 +10,9 @@ export default class ProfileStore{
     loading = false;
     followings: Profile[] = [];
     loadingFollowings = false;
-    activeTab = 0;
+    activeTab = 0;    
+    userActivities: UserActivity[] = [];
+    loadingActivities = false;
 
     constructor(){
         makeAutoObservable(this)
@@ -33,6 +35,7 @@ export default class ProfileStore{
         this.activeTab = activeTab
     }
 
+    // eslint-disable-next-line getter-return
     get isCurrentUser(){
         if(store.userStore.user && this.profile){
             return store.userStore.user.username === this.profile.username;
@@ -155,7 +158,7 @@ export default class ProfileStore{
         }
     }
 
-    loadFollowings = async (predicate: string) =>{
+    loadFollowings = async (predicate: string) => {
         this.loadingFollowings = true
         try {
             const followings = await agent.Profiles.listFollowings(this.profile!.username, predicate)
@@ -166,6 +169,22 @@ export default class ProfileStore{
         } catch (error) {
             console.log(error)
             runInAction(() => this.loadingFollowings = false)
+        }
+    }
+
+    loadUserActivities = async (username: string, predicate?: string) => {
+        this.loadingActivities = true;
+        try {
+            const activities = await agent.Profiles.listActivities(username, predicate!);
+            runInAction(() => {
+                this.userActivities = activities;
+                this.loadingActivities = false;
+            })
+        } catch (error) {
+            console.log(error);
+            runInAction(() => {
+                this.loadingActivities = false;
+            })
         }
     }
 }
