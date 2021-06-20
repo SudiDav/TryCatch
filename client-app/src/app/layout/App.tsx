@@ -18,6 +18,7 @@ import ModalContainer from '../common/modals/ModalContainer'
 import ProfilePage from '../../features/profiles/ProfilePage'
 import PrivateRoute from './PrivateRoute'
 
+
 function App() {
   const location = useLocation()
   const { commonStore, userStore } = useStore()
