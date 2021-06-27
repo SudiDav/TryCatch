@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Container } from 'semantic-ui-react'
 import NavBar from './NavBar'
 import ActivityDashboard from '../../features/activities/dashboard/ActivityDashboard'
@@ -7,7 +7,7 @@ import { Route, Switch, useLocation } from 'react-router'
 import HomePage from '../../features/home/HomePage'
 import ActivityForm from '../../features/activities/form/ActivityForm'
 import ActivityDetails from '../../features/activities/details/ActivityDetails'
-// import TestErrors from '../../features/errors/TestErors'
+import TestErrors from '../../features/errors/TestErors'
 import { ToastContainer } from 'react-toastify'
 import NotFound from '../../features/errors/NotFound'
 import ServerError from '../../features/errors/ServerError'
@@ -54,7 +54,7 @@ function App() {
                   component={ActivityForm}
                 />
                 <PrivateRoute path='/profiles/:username' component={ProfilePage} />
-                {/* <PrivateRoute path='/errors' component={TestErrors} /> */}
+                <PrivateRoute path='/errors' component={TestErrors} />
                 <Route path='/server-error' component={ServerError} />
                 <Route path='/login' component={LoginForm} />
                 <Route component={NotFound} />
