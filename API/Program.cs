@@ -15,6 +15,7 @@ namespace API
     {
         public static async Task Main(string[] args)
         {
+            // run an autamatic migration
             var host = CreateHostBuilder(args).Build();
 
             using var scope = host.Services.CreateScope();
