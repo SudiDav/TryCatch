@@ -10,8 +10,8 @@ namespace API.DTOs
         [EmailAddress]
         public string Email { get; set; }
         [Required]
-        [RegularExpression("(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{4,8}$",
-            ErrorMessage = "Password must be complex")]
+        [DataType(DataType.Password)]
+        [StringLength(20, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
         public string Password { get; set; }
         [Required]
         public string Username { get; set; }
