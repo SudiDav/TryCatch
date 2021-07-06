@@ -62,7 +62,8 @@ namespace API
                 .ImageSources(s => s.Self().CustomSources(
                     "https://res.cloudinary.com/",
                     "https://www.facebook.com",
-                    "https://platform-lookaside.fbsbx.com"
+                    "https://platform-lookaside.fbsbx.com",
+                    "https://gomatech.herokuapp.com/"
                     ))
                 .ScriptSources(s => s.Self().CustomSources(
                     "sha256-tXLQ06BxBE8V3rGF1gA61eh/3xT6ddtLBO5CIo37v98=",
